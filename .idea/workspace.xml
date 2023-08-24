@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d64a4409-b2a9-4883-b9a7-b77c42fe5c5a" name="Changes" comment="Finally Finished" />
+    <list default="true" id="d64a4409-b2a9-4883-b9a7-b77c42fe5c5a" name="Changes" comment="Finally Finished">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home Page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home Page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rules.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +88,8 @@
       <workItem from="1692756720617" duration="43361000" />
       <workItem from="1692881979115" duration="3350000" />
       <workItem from="1692895749008" duration="17195000" />
+      <workItem from="1692913578609" duration="770000" />
+      <workItem from="1692914463250" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Finally Finished">
       <created>1692913304892</created>
