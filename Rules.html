@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Melochord Event Rules</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter&family=Noto+Sans&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Rules.css">
+</head>
+<body>
+<div class="background-video-wrapper">
+    <video class="background-video" playsinline autoplay muted loop poster="Assets/Background%20Fallback%20Poster.png">
+        <source src="Assets/Background Video Final.mp4" type="video/mp4">
+    </video>
+</div>
+<header>
+    <div class="hero-wrapper">
+        <nav>
+            <div class="logo">Melochord</div>
+            <ul>
+                <li>
+                    <a href="Home%20Page.html">Home</a>
+                </li>
+                <li>
+                    <a href="Rules.html">Rules</a>
+                </li>
+                <li>
+                    <a href="Sponsors.html">Sponsors</a>
+                </li>
+                <li>
+                    <a href="Registration.html" class="button dark">Register</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="info-cards">
+    <section class="holder">
+        <article>
+            <div class="article-wrapper">
+                <figure>
+                    <img src="Assets/A band of indian students 2.jpeg"/></figure>
+                <div class="article-body">
+                    <h2>Ensemble Performances</h2>
+                    <p>
+                        Witness the magic as diverse instruments and voices unite in captivating ensemble performances
+                        that showcase musical synergy and collective artistry.
+                    </p>
+                    <button onclick="window.PP1.showModal()" class="read-more">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article-wrapper">
+                <figure>
+                    <img src="Assets/Anime Girl SInging.jpeg"/></figure>
+                <div class="article-body">
+                    <h2>Solo <br>Performances</h2>
+                    <p>
+                        Experience the power of individual expression as talented musicians take the spotlight,
+                        delivering moving solo performances that resonate deeply with the audience.
+                    </p>
+                    <button onclick="window.PP2.showModal()" class="read-more">
+                        Read more <span class="sr-only">about this is some title</span>
+                    </button>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article-wrapper">
+                <figure>
+                    <img src="Assets/A musical Instrument.jpeg"/></figure>
+                <div class="article-body">
+                    <h2>Instrumental <br>Showcase</h2>
+                    <p>
+                        Immerse yourself in the brilliance of solo instrumentalists, each bringing their chosen
+                        instruments to life with soulful melodies and technical virtuosity.</p>
+                    <button onclick="window.PP3.showModal()" class="read-more">
+                        Read more <span class="sr-only">about this is some title</span>
+                    </button>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="article-wrapper">
+                <figure>
+                    <img src="Assets/Godlevel.jpeg">
+                </figure>
+                <div class="article-body">
+                    <h2>Melody<br>Mastermind</h2>
+                    <p>
+                        Tune in for a musical showdown testing your knowledge of melodies, genres, and artists.
+                        Join the fun and see who comes out on top!</p>
+                    <button class="read-more",
+                            onclick="window.PP4.showModal()">
+                        Read more
+                    </button>
+                </div>
+            </div>
+        </article>
+    </section>
+</div>
+<dialog id="PP1" class="dialog">
+        <h2 class="pop-up-heading">
+            Ensemble Performance
+        </h2>
+        <p class="content">
+            Group Composition: Ensembles should consist of two or more performers. The composition can vary from duets
+            to larger groups like quartets, quintets, or full bands.
+            <br>
+            Instrumentation: Ensembles can feature a mix of instruments such as strings, woodwinds, brass, percussion,
+            and vocals. The choice of instruments is open to participants' preferences and musical genres.
+            <br>
+            Repertoire: Ensembles should prepare and perform a piece of music of their choice. The chosen repertoire
+            should highlight the ensemble's skills and showcase their collective musicality.
+            <br>
+            Performance Duration: Each ensemble will be allotted a specific performance time. Performances should
+            adhere to the allotted time to ensure fairness and smooth event flow.
+            <br>
+            Originality: While original compositions are welcome, participants can also perform arrangements or
+            adaptations of existing pieces. Proper credit and permissions must be obtained for any copyrighted material.
+            <br>
+            Adjudication: Performances will be judged by a panel of experienced musicians or music educators.
+            Judging criteria may include technical skill, interpretation, ensemble cohesion, communication, and
+            overall musical impact.
+            <br>
+            Props and Staging: Ensembles are allowed to use basic props or staging elements that enhance their
+            performance, but these should not overshadow the musical presentation.
+            <br>
+            Dress Code: Participants should dress appropriately for their performance, considering the genre and
+            formality of the event.
+            <br>
+            Equipment: Ensembles are responsible for bringing their own instruments and any required equipment.
+            The event organizers will provide basic sound amplification if needed.
+            <br>
+            Respectful Conduct: All ensemble members should display professionalism and respect toward fellow
+            participants, event staff, judges, and the audience.
+        </p>
+    <button onclick="window.PP1.close()" class="x">❌</button>
+</dialog>
+<dialog id="PP2" class="dialog">
+    <h2 class="pop-up-heading">
+        Solo Performances
+    </h2>
+    <p class="content">
+        Performance Duration: Each solo performer will be allocated a specific performance time. Performances should
+        adhere to the allotted time to ensure fairness and smooth event flow.
+        <br>
+        Repertoire: Solo performers should prepare and perform a piece of music of their choice. The chosen
+        repertoire should highlight the performer's skills and showcase their individual musicality.
+        <br>
+        Originality: While original compositions are welcome, participants can also perform covers or arrangements of
+        existing pieces. Proper credit and permissions must be obtained for any copyrighted material.
+        <br>
+        Instrumentation: Solo performances can feature a wide range of instruments, including voice. Participants
+        should bring their own instruments unless alternative arrangements have been made.
+        <br>
+        Adjudication: Performances will be judged by a panel of experienced musicians or music educators. Judging
+        criteria may include technical skill, interpretation, expression, communication, and overall musical impact.
+        <br>
+        Props and Staging: Solo performers are allowed to use basic props or staging elements that enhance their
+        performance, but these should not overshadow the musical presentation.
+        <br>
+        Dress Code: Participants should dress appropriately for their performance, considering the genre and
+        formality of the event.
+        <br>
+        Equipment: Solo performers are responsible for bringing their own instruments and any required equipment.
+        The event organizers will provide basic sound amplification if needed.
+        <br>
+        Respectful Conduct: Solo performers should display professionalism and respect toward event staff, judges,
+        and the audience.
+    </p>
+    <button onclick="window.PP2.close()" class="x">❌</button>
+</dialog>
+<dialog id="PP3" class="dialog">
+    <h2 class="pop-up-heading">
+        Instrumental Showcase
+    </h2>
+    <p class="content">
+        Performance Duration: Each instrumentalist will be granted a precise performance time of 4 minutes.
+        Performances should conclude within this time to ensure fairness and event scheduling.
+        <br>
+        Repertoire: Participants are required to perform a single instrumental piece of their choosing. The chosen
+        piece must showcase the capabilities and nuances of their selected instrument.
+        <br>
+        Originality: While participants are encouraged to perform original compositions, covers or arrangements of
+        existing pieces are also accepted. Ensure proper attribution for copyrighted material.
+        <br>
+        Instrument Preparation: All instrumentalists must ensure their instruments are tuned and properly maintained
+        before their performance slot.
+        <br>
+        Adjudication: Performances will be assessed by a panel of skilled judges with expertise in various instruments.
+        Criteria include technical proficiency, expressive interpretation, tone quality, originality, and stage presence.
+        <br>
+        Dress Code: Participants should dress in appropriate concert attire that aligns with the formality of the event.
+        <br>
+        Props and Staging: Limited use of props that enhance the musical presentation is allowed, but they should
+        complement the performance rather than overshadow it.
+        <br>
+        Respectful Conduct: All participants must demonstrate professionalism and respect towards event staff, fellow
+        performers, judges, and the audience.
+    </p>
+    <button onclick="window.PP3.close()" class="x">❌</button>
+</dialog>
+<dialog id="PP4" class="dialog">
+    <h2 class="pop-up-heading">
+        Melody Mastermind
+    </h2>
+    <p class="content">
+        Team Formation: Teams can consist of 2 to 4 members. Teams will compete collaboratively to answer
+        quiz questions.
+        <br>
+        Question Format: Questions will encompass diverse music-related categories, including music history, genres,
+        famous composers, lyrics, and instrument recognition.
+        <br>
+        Answering Protocol: Teams will nominate a spokesperson to provide answers. Responses will be provided orally,
+        and teams should await the quizmaster's acknowledgment before answering.
+        <br>
+        Time Limits: Each question will have a 30-second response time limit to maintain an efficient quiz pace.
+        <br>
+        Scoring: Correct answers earn teams points. Scores will be calculated cumulatively, and the team with the
+        highest score at the end of the quiz wins.
+        <br>
+        Fair Play: Teams are expected to adhere to the rules and exhibit sportsmanship throughout the quiz.
+        <br>
+        Tie-Breakers: In case of tied scores, sudden-death tie-breaker questions will determine the winner.
+        <br>
+        Moderation: A designated quizmaster will read out questions, manage the quiz flow, and ensure fairness.
+    </p>
+    <button onclick="window.PP4.close()" class="x">❌</button>
+</dialog>
+<script src="Rules.js"></script>
+</body>
+</html>

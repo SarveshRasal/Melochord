@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d64a4409-b2a9-4883-b9a7-b77c42fe5c5a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/A band of indian students 2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/A musical Instrument.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anime Girl SInging.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Background Video Final.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Cover Photo Without Background (Dark).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Cover Photo Without Background (Light).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Cover Photo Without Background (Medium).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Godlevel.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Hero Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home Page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home Page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home Page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Melochord.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Registration.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rules.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rules.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sponsors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sponsors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UIbSu5lgTaIwx2RN345HwRMHeW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sarvesh.SARVESH-RASAL\IdeaProjects\Melochord" />
+      <recent name="C:\Users\Sarvesh.SARVESH-RASAL\IdeaProjects\Melochord\Assests" />
+      <recent name="C:\Users\Sarvesh.SARVESH-RASAL\IdeaProjects\Melochord\Home Page" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Home Page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Melochord/Home Page.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Home Page.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d64a4409-b2a9-4883-b9a7-b77c42fe5c5a" name="Changes" comment="" />
+      <created>1692630047290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692630047290</updated>
+      <workItem from="1692630048841" duration="6368000" />
+      <workItem from="1692711654884" duration="3361000" />
+      <workItem from="1692756720617" duration="43361000" />
+      <workItem from="1692881979115" duration="3350000" />
+      <workItem from="1692895749008" duration="16950000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

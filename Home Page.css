@@ -1,0 +1,588 @@
+:root {
+    --ivory: #f2f1e8;
+    --blue-grotto: #0d698b;
+    --dark-blue: #050533;
+    --action: #e34234;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    width: 0 !important
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Crimson Text';
+    background: var(--ivory);
+    -ms-overflow-style: none;
+}
+
+header {
+    height: fit-content;
+    min-height: 100vh;
+    background: var(--blue-grotto);
+    z-index: 0;
+}
+
+/*Hero Section*/
+
+@media screen and (max-width: 1000px){
+    .hero-section{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    header {
+        height: fit-content;
+    }
+
+    .hero-section .left {
+        width: 100%;
+    }
+
+    .hero-section .left h2 {
+        text-align: center;
+    }
+
+    .hero-section .left p {
+        text-align: center;
+    }
+
+    .hero-section .right{
+        width: 100%;
+        height: 100%;
+    }
+    .hero-section.right img {
+        width: 80%;
+    }
+    .ensemble-performance-left img{
+        display: none;
+    }
+    .ensemble-performance-right img{
+        display: none;
+    }
+    .content-wrapper .ensemble-performance-center {
+        width: 50vw;
+    }
+
+}
+
+.hero-wrapper {
+    margin: auto;
+    max-width: 94.27%;
+    background: var(--blue-grotto);
+    height: auto;
+}
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            list-style: none;
+            margin: 0;
+        }
+
+            nav .logo {
+    color: #F2F1E8;
+    text-align: center;
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+            .button.dark {
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    border-radius: 102px;
+    background: #050533;
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--ivory);
+    text-decoration: none;
+}
+
+            nav ul li a {
+            color: #F2F1E8;
+            text-align: center;
+            font-family: Crimson Text;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+
+    .hero-section {
+        display: flex;
+        align-items: center; /* Align header and hero content vertically */
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+        height: fit-content;
+    }
+
+        .hero-section .left {
+        width: 70%;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+            .hero-section .left h2 {
+        color: #F2F1E8;
+        font-family: Crimson Text;
+        font-size: 6vmin;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 90px */
+        letter-spacing: -1.14px;
+        text-transform: capitalize;
+        margin-bottom: -10px;
+    }
+
+            .hero-section .left p {
+        color: #F2F1E8;
+        font-family: Crimson Text;
+        font-size: 3.5vmin;
+        font-style: normal;
+        font-weight: lighter;
+        line-height: 5.2vmin;
+        letter-spacing: 0.04vmin;
+        text-transform: capitalize;
+    }
+
+            .hero-section .left a {
+        padding: 2vh 2vw;
+        background: var(--action);
+        border-radius: 102px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 3vmin;
+        color: var(--ivory);
+        text-decoration: none;
+        margin: 0 auto;
+    }
+
+        .hero-section .right {
+        display: block;
+        margin: auto;
+        padding: 2%;
+    }
+
+        .hero-section .right img {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    opacity: 0.87;
+    margin: auto;
+}
+
+/*End of Hero Section*/
+
+.content-wrapper {
+    background: var(--ivory);
+    height: fit-content;
+    min-height: 100vh;
+    max-width: 100%;
+    margin: 0 0;
+}
+
+section {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.king-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/*Page 1: Ensemble Performances*/
+
+.ensemble-performance-intro {
+    height: 10vh;
+    margin: 0 0;
+}
+
+.intro {
+    color: #000;
+    text-align: center;
+    font-family: Crimson Text;
+    font-size: 9vmin;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 1vh 0 0;
+}
+
+.ensemble-performance {
+    padding-top: 0;
+}
+
+section .ensemble-performance-left {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+    section .ensemble-performance-left img{
+        height: 80%;
+        transform: translateX(-0.8px);
+    }
+
+section .ensemble-performance-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 90vh;
+}
+
+    section .ensemble-performance-right img{
+        height: 80%;
+    }
+
+section .ensemble-performance-center {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 25%;
+}
+
+    .ensemble-performances-title {
+        color: #000;
+        text-align: center;
+        font-family: Crimson Text;
+        font-size: 6vmin;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .ensemble-performance-center .content {
+    color: #000;
+    text-align: center;
+    font-family: Crimson Text;
+    font-size: 3.4vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*Page 2: Solo Performances*/
+
+.solo-performance-intro .intro-text {
+    color: #000;
+    text-align: center;
+    font-family: Crimson Text;
+    font-size: 8vmin;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.solo-performance-left {
+    color: #000;
+    font-family: Crimson Text;
+    font-size: 3.8vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: auto 20%;
+    text-align: center;
+    width: 100%;
+}
+
+.solo-performance-left .content-bold-text {
+    color: #000;
+    font-family: Crimson Text;
+    font-size: 3.8vmin;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.solo-performance-right img {
+    width: 30vw;
+    min-height: 30vh;
+    min-width: 30vw;
+}
+
+/*Page 3: Instrumental Showcases*/
+
+.instrumental-showcase-intro .intro-text {
+    color: #000;
+    text-align: center;
+    font-family: Crimson Text;
+    font-size: 8vmin;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.instrumental-showcase-left {
+    display: flex;
+    width: fit-content;
+    child-align: bottom;
+}
+
+.instrumental-showcase-left img {
+    width: 40vw;
+}
+
+.instrumental-showcase-right h3 {
+    color: #000;
+    text-align: right;
+    font-family: Crimson Text;
+    font-size: 6vmin;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 5vh 2vw;
+}
+
+.instrumental-showcase-right p {
+    color: #000;
+    font-family: Crimson Text;
+    font-size: 3.8vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+    text-align: right;
+    width: 100%;
+    padding-right: 2vw;
+    padding-left: 15vw;
+}
+
+.instrumental-showcase-right p .content-bold-text {
+    color: #000;
+    font-family: Crimson Text;
+    font-size: 3.8vmin;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.instrumental-showcase-left img {
+    alignment: bottom;
+    width: 43vw;
+    transform: translateX(-3vw);
+}
+
+/*Page 4: Melody Mastermind*/
+
+.melody-mastermind-intro .intro-text {
+    color: #000;
+    text-align: center;
+    font-family: Crimson Text;
+    font-size: 8vmin;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.melody-mastermind{
+    height: 90vh;
+}
+
+.melody-mastermind-left img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 25vw;
+    height: 50%;
+}
+
+.melody-mastermind-right img {
+    position: absolute;
+    right: 0;
+    width: 25vw;
+    height: 50%;
+}
+
+.melody-mastermind-centre {
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.melody-mastermind-centre p {
+    color: #000;
+    font-family: Crimson Text;
+    font-size: 3.8vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.melody-mastermind-centre p .content-bold-text {
+    color: #000;
+    font-family: Crimson Text;
+    font-size: 3.8vmin;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*End of Information Pages*/
+
+/*Footer*/
+
+footer {
+    background-color: var(--blue-grotto);
+    color: var(--ivory);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 0;
+
+}
+
+footer .iframe-left {
+    width: 900px;
+    height: 513px;
+    margin: 0;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    overflow:hidden;
+    position:relative;
+}
+
+.footer-header {
+    display: flex;
+    justify-items: left;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 3vmin;
+    width: 25%;
+}
+
+.footer-header h3 {
+    color: #F2F1E8;
+    text-align: center;
+    font-family: Crimson Text;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.footer-header p {
+    color: #FFF;
+    font-family: Crimson Text;
+    font-size: 3vmin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 2vmin;
+    text-align: left;
+}
+
+.footer-header .footer-bold-text {
+    color: #FFF;
+    font-family: Crimson Text;
+    font-size: 5vmin;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.form-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+.form-container input[type="text"] {
+    width: 100%;
+    max-width: 250px; /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-container button.subscribe-button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Add spacing between the input field and button */
+}
+
+.form-container button.subscribe-button:hover {
+    background-color: #3367d6;
+}
+
+.form-container label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
